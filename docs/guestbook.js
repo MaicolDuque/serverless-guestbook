@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = process.env.API_URL;
+const apiUrl = 'https://7936a103.us-south.apigw.appdomain.cloud/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
